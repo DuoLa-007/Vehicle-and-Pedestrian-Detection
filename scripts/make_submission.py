@@ -69,7 +69,7 @@ def main() -> None:
                 continue
 
             results.append({
-                "filename": f"test_images\\\\{image_path.name}",
+                "filename": f"test_images\\{image_path.name}",
                 "box": {
                     "xmin": round(x1, 2),
                     "ymin": round(y1, 2),
