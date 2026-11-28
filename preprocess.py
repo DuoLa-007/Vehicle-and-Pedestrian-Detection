@@ -219,7 +219,7 @@ def main():
             "objects": valid_objects
         })
 
-    # 数据归约：按图片去重后进行固定随机种子的8:2划分。
+    # 数据归约：
     random.seed(RANDOM_SEED)
     random.shuffle(samples)
     train_count = int(len(samples) * TRAIN_RATIO)
